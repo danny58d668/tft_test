@@ -1,0 +1,614 @@
+[
+  {
+    "champion": [
+      "Ahri"
+    ],
+    "traits": [
+      "K/DA",
+      "Spellweaver"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Akali K/DA"
+    ],
+    "traits": [
+      "K/DA",
+      "Executioner",
+      "Breakout"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Akali True Damage"
+    ],
+    "traits": [
+      "True Damage",
+      "Executioner",
+      "Breakout"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Amumu"
+    ],
+    "traits": [
+      "Emo",
+      "Guardian"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Annie"
+    ],
+    "traits": [
+      "Emo",
+      "Spellweaver"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Aphelios"
+    ],
+    "traits": [
+      "HEARTSTEEL",
+      "Rapidfire"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Bard"
+    ],
+    "traits": [
+      "Jazz",
+      "Dazzler"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Blitzcrank"
+    ],
+    "traits": [
+      "Disco",
+      "Sentinel"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Caitlyn"
+    ],
+    "traits": [
+      "8-Bit",
+      "Rapidfire"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Corki"
+    ],
+    "traits": [
+      "8-Bit",
+      "Big Shot"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Ekko"
+    ],
+    "traits": [
+      "True Damage",
+      "Sentinel",
+      "Spellweaver"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Evelynn"
+    ],
+    "traits": [
+      "K/DA",
+      "Crowd Diver"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Ezreal"
+    ],
+    "traits": [
+      "HEARTSTEEL",
+      "Big Shot"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Garen"
+    ],
+    "traits": [
+      "8-Bit",
+      "Sentinel"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Gnar"
+    ],
+    "traits": [
+      "Pentakill",
+      "Mosher",
+      "Superfan"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Gragas"
+    ],
+    "traits": [
+      "Disco",
+      "Bruiser",
+      "Spellweaver"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Illaoi"
+    ],
+    "traits": [
+      "ILLBEATS",
+      "Bruiser"
+    ],
+    "cost": "5"
+  },
+  {
+    "champion": [
+      "Jax"
+    ],
+    "traits": [
+      "EDM",
+      "Mosher"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Jhin"
+    ],
+    "traits": [
+      "Maestro",
+      "Big Shot"
+    ],
+    "cost": "5"
+  },
+  {
+    "champion": [
+      "Jinx"
+    ],
+    "traits": [
+      "Punk",
+      "Rapidfire"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "KSante"
+    ],
+    "traits": [
+      "HEARTSTEEL",
+      "Sentinel"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Kaisa"
+    ],
+    "traits": [
+      "K/DA",
+      "Big Shot"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Karthus"
+    ],
+    "traits": [
+      "Pentakill",
+      "Executioner"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Katarina"
+    ],
+    "traits": [
+      "Country",
+      "Crowd Diver"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Kayle"
+    ],
+    "traits": [
+      "Pentakill",
+      "Edgelord"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Kayn"
+    ],
+    "traits": [
+      "HEARTSTEEL",
+      "Wildcard",
+      "Edgelord"
+    ],
+    "cost": "5"
+  },
+  {
+    "champion": [
+      "Kennen"
+    ],
+    "traits": [
+      "True Damage",
+      "Guardian",
+      "Superfan"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Lillia"
+    ],
+    "traits": [
+      "K/DA",
+      "Sentinel",
+      "Superfan"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Lucian"
+    ],
+    "traits": [
+      "Jazz",
+      "Rapidfire"
+    ],
+    "cost": "5"
+  },
+  {
+    "champion": [
+      "Lulu"
+    ],
+    "traits": [
+      "Hyperpop",
+      "Spellweaver"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Lux"
+    ],
+    "traits": [
+      "EDM",
+      "Dazzler"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Miss Fortune"
+    ],
+    "traits": [
+      "Jazz",
+      "Big Shot"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Mordekaiser"
+    ],
+    "traits": [
+      "Pentakill",
+      "Sentinel"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Nami"
+    ],
+    "traits": [
+      "Disco",
+      "Dazzler"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Neeko"
+    ],
+    "traits": [
+      "K/DA",
+      "Guardian",
+      "Superfan"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Olaf"
+    ],
+    "traits": [
+      "Pentakill",
+      "Bruiser"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Pantheon"
+    ],
+    "traits": [
+      "Punk",
+      "Guardian"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Poppy"
+    ],
+    "traits": [
+      "Emo",
+      "Mosher"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Qiyana"
+    ],
+    "traits": [
+      "True Damage",
+      "Crowd Diver"
+    ],
+    "cost": "5"
+  },
+  {
+    "champion": [
+      "Riven"
+    ],
+    "traits": [
+      "8-Bit",
+      "Edgelord"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Samira"
+    ],
+    "traits": [
+      "Country",
+      "Executioner"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Senna"
+    ],
+    "traits": [
+      "True Damage",
+      "Rapidfire"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Seraphine"
+    ],
+    "traits": [
+      "K/DA",
+      "Spellweaver"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Sett"
+    ],
+    "traits": [
+      "HEARTSTEEL",
+      "Bruiser",
+      "Mosher"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Sona"
+    ],
+    "traits": [
+      "Mixmaster",
+      "Spellweaver"
+    ],
+    "cost": "5"
+  },
+  {
+    "champion": [
+      "Tahm"
+    ],
+    "traits": [
+      "Country",
+      "Bruiser"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Taric"
+    ],
+    "traits": [
+      "Disco",
+      "Guardian"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Thresh"
+    ],
+    "traits": [
+      "Country",
+      "Guardian"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Twisted Fate"
+    ],
+    "traits": [
+      "Disco",
+      "Dazzler"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Twitch"
+    ],
+    "traits": [
+      "Punk",
+      "Executioner"
+    ],
+    "cost": "2"
+  },
+  {
+    "champion": [
+      "Urgot"
+    ],
+    "traits": [
+      "Country",
+      "Mosher"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Vex"
+    ],
+    "traits": [
+      "Emo",
+      "Executioner"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Vi"
+    ],
+    "traits": [
+      "Punk",
+      "Mosher"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Viego"
+    ],
+    "traits": [
+      "Pentakill",
+      "Edgelord"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Yasuo"
+    ],
+    "traits": [
+      "True Damage",
+      "Edgelord"
+    ],
+    "cost": "1"
+  },
+  {
+    "champion": [
+      "Yone"
+    ],
+    "traits": [
+      "HEARTSTEEL",
+      "Crowd Diver",
+      "Edgelord"
+    ],
+    "cost": "3"
+  },
+  {
+    "champion": [
+      "Yorick"
+    ],
+    "traits": [
+      "Pentakill",
+      "Guardian",
+      "Mosher"
+    ],
+    "cost": "5"
+  },
+  {
+    "champion": [
+      "Zac"
+    ],
+    "traits": [
+      "EDM",
+      "Bruiser"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Zed"
+    ],
+    "traits": [
+      "EDM",
+      "Crowd Diver"
+    ],
+    "cost": "4"
+  },
+  {
+    "champion": [
+      "Ziggs"
+    ],
+    "traits": [
+      "Hyperpop",
+      "Dazzler"
+    ],
+    "cost": "5"
+  }
+]
