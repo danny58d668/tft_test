@@ -13,10 +13,8 @@ def in_game():
 
     print("Round ", stage[0], "Stage", stage[1])
     print("Gold: ", gold)
-    print("Shop: ")
-    for i in range(5):
-        cards[i] = get_data(cards[i])
-        print(cards[i])
+    print("Shop: ", cards)
+
     #if stage[0] == 1:
     #    stage1()
     print("----------------------------------------")
