@@ -1,6 +1,5 @@
-import cv2
 import numpy as np
-from PIL import Image
+
 
 
 def is_bench_slot_empty(screenshot, bench_slot_coordinates):
