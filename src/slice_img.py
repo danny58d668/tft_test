@@ -3,6 +3,8 @@ from PIL import Image
 import pytesseract
 from screenshot import screenshot
 from find_data import get_data
+from empty_bench import is_bench_slot_empty
+
 
 def get_cards(src):
     img = Image.open(src)
@@ -42,7 +44,7 @@ def get_stage(input_path):
 
 
 def bench_info():
-    # 1070 320 1859 345
+    #110 x 85 per slot
     coordinates = [
         (422, 779),  #
         (544, 783),  #
@@ -54,30 +56,23 @@ def bench_info():
         (1234, 790),
         (1367, 790),
     ]
-    cards = []
+    cards = [[] for _ in range(9)]
     # Extract image slices based on provided coordinates
 
     for i, (x, y) in enumerate(coordinates):
         img = screenshot()
         img = Image.open(img)
-        pyautogui.moveTo(x, y)  # Move the mouse to the coordinates
-        pyautogui.rightClick()
-        bench = img.crop((1705, 320, 1820, 345))  # get champion info
-        bench = pytesseract.image_to_string(bench, lang='eng', config='--psm 6').strip()
-        cards.append(bench)
+        empty = is_bench_slot_empty(img, (x, y, x+110, y+85))
+        print("Slot",i,"::", empty)
+        if not empty:
+
+            pyautogui.moveTo(x, y)  # Move the mouse to the coordinates
+            pyautogui.rightClick()
+            bench = img.crop((1705, 320, 1820, 345))  # get champion info
+            bench = pytesseract.image_to_string(bench, lang='eng', config='--psm 6').strip()
+            cards[i] = bench
 
     return cards
 
-
-'''
-src = "../img/rightbar.png"
-t = "../img/ingame 10.png"
-s = get_stage(src)
-print("Stage: ",s)
-b = bench_info(src)
+b = bench_info()
 print(b)
-v = bench_info(t)
-print(v)
-'''
-test = bench_info()
-print(test)

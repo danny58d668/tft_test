@@ -8,7 +8,7 @@ def init_start(x, y):
     pyautogui.click()
     print("PLAY")
     time.sleep(0.5)
-    pyautogui.moveTo(x+760, y+300)  # Select TFT 615 242 || 760 300 for 3 mods
+    pyautogui.moveTo(x+615, y+242)  # Select TFT 615 242 || 760 300 for 3 mods
     pyautogui.click()
     print("TFT")
     time.sleep(0.5)
