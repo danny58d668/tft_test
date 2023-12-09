@@ -1,9 +1,11 @@
+import time
+
 import pyautogui
 from PIL import Image
 import pytesseract
 from screenshot import screenshot
 from find_data import get_data
-from empty_bench import is_bench_slot_empty
+from empty_bench import is_slot_full
 
 
 def get_cards(src):
@@ -61,11 +63,12 @@ def bench_info():
 
     for i, (x, y) in enumerate(coordinates):
         img = screenshot()
+        #img = '../img/ingame.png'
+        print("Slot: ", i+1)
         img = Image.open(img)
-        empty = is_bench_slot_empty(img, (x, y, x+110, y+85))
-        print("Slot",i,"::", empty)
-        if not empty:
-
+        empty = is_slot_full(img, (x, y, x + 110, y + 85))
+        print(empty)
+        if empty:
             pyautogui.moveTo(x, y)  # Move the mouse to the coordinates
             pyautogui.rightClick()
             bench = img.crop((1705, 320, 1820, 345))  # get champion info
@@ -74,5 +77,6 @@ def bench_info():
 
     return cards
 
+time.sleep(2)
 b = bench_info()
 print(b)

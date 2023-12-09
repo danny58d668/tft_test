@@ -1,13 +1,10 @@
 import numpy as np
 
 
-
-def is_bench_slot_empty(screenshot, bench_slot_coordinates):
-    # Load the screenshot
-    # screenshot = Image.open(screenshot)
+def is_slot_full(screenshot, bench_slot_coordinates):
     bench = screenshot.crop(bench_slot_coordinates)
     target_color = (154, 134, 167)  # Most frequent color
-    tolerance = 20
+    tolerance = 26
     lower_bound = tuple(max(c - tolerance, 0) for c in target_color)
     upper_bound = tuple(min(c + tolerance, 255) for c in target_color)
     np_image = np.array(bench)
@@ -18,10 +15,10 @@ def is_bench_slot_empty(screenshot, bench_slot_coordinates):
     total_pixels = np_image.shape[0] * np_image.shape[1]
     percentage = (count / total_pixels) * 100
     print("percentage:",percentage)
-    if percentage >= 40:
-        return True
-    else:
+    if percentage > 30:
         return False
+    else:
+        return True
 '''
 screenshot_path = '../img/rightbar.png'
 #coord = (501, 740, 600, 830)  #  Empty
